@@ -29,6 +29,11 @@ let value = convertCelsius(77);
 console.log(value);
 
 
+//javascript object
+const house = {type:"duplex", model:"Aw1q", color:"white"};
+console.log(house.model);
+
+
 
 
 
