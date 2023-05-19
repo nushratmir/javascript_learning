@@ -33,6 +33,18 @@ console.log(value);
 const house = {type:"duplex", model:"Aw1q", color:"white"};
 console.log(house.model);
 
+//javascript string method
+const person = { //object declare
+    firstName:"Jahan",
+    lastName:"Mir",
+    age: 40,
+    eyeColor:"blue"};
+
+let humanBeing = "tara"; //its a string
+console.log(humanBeing.length); //when we are using method it become object
+
+
+
 
 
 
