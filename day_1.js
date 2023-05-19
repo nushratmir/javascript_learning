@@ -42,6 +42,19 @@ const person = { //object declare
 
 let humanBeing = "tara"; //its a string
 console.log(humanBeing.length); //when we are using method it become object
+ let x= humanBeing.slice(1,3);
+ console.log(x);
+
+
+ //template literal
+let str1 ="mir";
+let str2 ="miru";
+let str3 ="mira";
+
+let completeStr = str1 + " "+str2 + " "+str3 ;
+let finalStr = `${str1} ${str2} ${str3}`;
+
+console.log(finalStr);
 
 
 
