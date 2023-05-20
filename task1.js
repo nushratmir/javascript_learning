@@ -7,3 +7,11 @@ function getRndInteger(min, max) {
 //organize students name alphabetically
 const students = ["Runi", "Orin", "Apple", "Mantasha","Bina"];
 console.log(students.sort());
+
+//organize students roll in ascending order
+const student_roll=[44,77,88,99,11,90];
+console.log(student_roll.sort(function(a,b){
+    return a-b;
+}))
+
+//leap year task
