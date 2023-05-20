@@ -14,4 +14,21 @@ console.log(student_roll.sort(function(a,b){
     return a-b;
 }))
 
-//leap year task
+//count vawel from a sentence
+const vowel =["a","e","i","o", "u", "A","E","I","O","U"];
+
+function checkVowel(sentence) {
+    let count = 0;
+    const letters = Array.from(sentence);
+
+    letters.forEach(function (value) {
+        if (vowel.includes(value)) {
+            count++;
+        }
+
+    });
+}
+
+console.log(checkVowel("I love Bangladesh"));
+
+
