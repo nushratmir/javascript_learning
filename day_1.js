@@ -12,24 +12,24 @@
 // var y=9;// var variable can redeclared
 // var total = x+y;
 // console.log(total);
-
-//javascript operations
+//
+// //javascript operations
 // let text1 = "mir";
 // let text2 = "nushrat";
 // let add = text1 + " " + text2;
 // console.log(add);
 // console.log(typeof text1);//data type of the value
-
-//javascript function
+//
+// //javascript function
 // function convertCelsius(fahrenheit) {
 //     return (5/9) * (fahrenheit-32); //calculate and return the value
 // }
 //
 // let value = convertCelsius(77);
 // console.log(value);
-//
-//
-// //javascript object
+// //
+// //
+// // //javascript object
 // const house = {type:"duplex", model:"Aw1q", color:"white"};
 // console.log(house.model);
 //
@@ -44,9 +44,9 @@
 // console.log(humanBeing.length); //when we are using method it become object
 //  let x= humanBeing.slice(1,3);
 //  console.log(x);
-//
-//
-//  //template literal
+// //
+// //
+// //  //template literal
 // let str1 ="mir";
 // let str2 ="miru";
 // let str3 ="mira";
@@ -55,18 +55,18 @@
 // let finalStr = `${str1} ${str2} ${str3}`;
 //
 // console.log(finalStr);
-
-//number methods
-let x = 123;
-let newN = x.toString();
-console.log(newN) ;
-
-//array
-const member=["rita","bina","tina"] ;
-for(i=0; i<member.length; i++){
-console.log(member[i]);
-}
-
+//
+// //number methods
+// let x = 123;
+// let newN = x.toString();
+// console.log(newN) ;
+//
+// //array
+// const member=["rita","bina","tina"] ;
+// for(i=0; i<member.length; i++){   //array iteration
+// console.log(member[i]);
+// }
+//
 
 
 
