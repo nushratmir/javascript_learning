@@ -4,4 +4,6 @@ function getRndInteger(min, max) {
     console.log (getRndInteger(1,6));
 }
 
-//
+//organize students name alphabetically
+const students = ["Runi", "Orin", "Apple", "Mantasha","Bina"];
+console.log(students.sort());
