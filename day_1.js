@@ -14,8 +14,8 @@
 // console.log(total);
 //
 // //javascript operations
-// let text1 = "mir";
-// let text2 = "nushrat";
+// let text1 = "dom";
+// let text2 = "Toretto";
 // let add = text1 + " " + text2;
 // console.log(add);
 // console.log(typeof text1);//data type of the value
@@ -68,7 +68,13 @@
 // }
 //
 
+//for in uses
+const person = {fname:"Dom", lname:"Toretto", age:25};
 
+let text = "";
+for (let x in person) {
+    text += person[x];
+}
 
 
 

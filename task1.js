@@ -25,10 +25,13 @@ function checkVowel(sentence) {
         if (vowel.includes(value)) {
             count++;
         }
-
     });
+    console.log(count)
 }
 
 console.log(checkVowel("I love Bangladesh"));
+
+
+
 
 
